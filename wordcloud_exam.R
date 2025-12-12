@@ -1,6 +1,8 @@
 setwd("C:\\Users\\Computer\\OneDrive\\Desktop\\rprogramming")
 getwd
 
+install.packages(c("tm", "SnowballC", "wordcloud", "RColorBrewer"))
+
 library(tm)
 library(SnowballC)
 library(wordcloud)
